@@ -11,5 +11,5 @@ def join_nested_strings(src)
   end
   index_count += 1 
 end
-newarray.split("")
+newarray.join(" ")
 end
