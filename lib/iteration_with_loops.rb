@@ -4,7 +4,7 @@ def join_nested_strings(src)
   while index_count < src.length do
     element_count = 0 
     while element_count < src[index_count].length 
-    if src[index_count] == "#{src[index_count}"
+    if src[index_count] == "#{src[index_count]"
       newarray.push(src[index_count])
     end
     element_count += 1 
